@@ -12,7 +12,7 @@ void print_help();
 
 int main(int argc, char **argv){
   if ( argc != 2 ){
-    printf("Pass 2 arguments\n");
+    printf("Pass name of disk image as command line argument\n");
     return 1;
   }
   FAT_t fat;
